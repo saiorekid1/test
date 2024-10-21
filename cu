@@ -1,10 +1,14 @@
--- Carregar a biblioteca Orion local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+-- Carregar a biblioteca Orion local OrionLib =
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
--- Criar a janela principal local Window = OrionLib:MakeWindow({ Name = "Onion Library Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OnionLibrary" })
+-- Criar a janela principal local Window =
+OrionLib:MakeWindow({ Name = "Onion Library Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OnionLibrary" })
 
--- Criar uma aba local Tab = Window:MakeTab({ Name = "Scripts", Icon = "rbxassetid://4483345998", PremiumOnly = false })
+-- Criar uma aba local Tab =
+Window:MakeTab({ Name = "Scripts", Icon = "rbxassetid://4483345998", PremiumOnly = false })
 
--- Criar uma seção local Section = Tab:AddSection({ Name = "Admin Scripts" })
+-- Criar uma seção local Section =
+Tab:AddSection({ Name = "Admin Scripts" })
 
 -- Criar uma aba
 local Tab = Window:MakeTab({
